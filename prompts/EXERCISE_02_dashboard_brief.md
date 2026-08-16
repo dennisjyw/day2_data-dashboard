@@ -17,7 +17,7 @@
 我已完成 Dashboard Brief，內容如下：
 [貼上你填好的 dashboard-brief.md 全文]
 
-請先閱讀 README.md、AGENTS.md 與 data/data_dictionary.md，再依這些文件檢視我的 Brief。這一輪只做產品定義與需求澄清，請不要寫程式、不要新增資料欄位，也不要提出超出 README.md 專案限制的功能。
+請先閱讀 data/data_dictionary.md，再依這些文件檢視我的 Brief。這一輪只做產品定義與需求澄清，請不要寫程式、不要新增資料欄位，也不要提出超出 README.md 專案限制的功能。
 
 請回答：
 1. 你從 Brief 看到哪些關鍵決策問題？
@@ -31,7 +31,7 @@
 ## 提示詞 2：以嚴格顧問角度挑戰 Brief
 
 ```text
-請扮演嚴格的校務研究顧問，依 README.md、AGENTS.md 與 data/data_dictionary.md 挑戰我的 Dashboard Brief。
+請扮演嚴格的校務研究顧問，依 data/data_dictionary.md 挑戰我的 Dashboard Brief。
 
 請至少列出 3 個我不應忽略的問題，並對每個問題說明：
 - 哪一段定義不夠具體；

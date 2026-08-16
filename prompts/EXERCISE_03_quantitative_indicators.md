@@ -13,7 +13,7 @@
 ## 提示詞 1：建立指標與兩種圖表
 
 ```text
-請先閱讀 README.md、AGENTS.md、data/data_dictionary.md 與 dashboard-brief.md，並依這些文件檢查目前專案的既有程式碼。請沿用目前的 React 19 + Vite + TypeScript、Tailwind CSS 4、shadcn/ui 與既有元件結構，不要改用其他框架或新增不必要的服務。
+請先閱讀 data/data_dictionary.md 與 dashboard-brief.md，並依這些文件檢查目前專案的既有程式碼。請沿用目前的 React 19 + Vite + TypeScript、Tailwind CSS 4、shadcn/ui 與既有元件結構，不要改用其他框架或新增不必要的服務。
 
 請根據 Dashboard Brief 的核心問題完成以下工作：
 1. 加入 3–5 個量化指標。可從整體錄取後註冊率、分組註冊率、報到後註冊率、休學率、跨學年度變化或 Brief 指定的指標中選擇，但每個指標都必須能回答一個明確問題。
@@ -46,7 +46,7 @@
 ## 提示詞 3：修正年度趨勢圖與 tooltip
 
 ```text
-請依 README.md、AGENTS.md 與 data/data_dictionary.md 檢查年度趨勢圖。
+請依 data/data_dictionary.md 檢查年度趨勢圖。
 
 請使用目前專案的 `recharts`：
 - X 軸使用 `academic_year`，並依資料中的實際學年度排序。

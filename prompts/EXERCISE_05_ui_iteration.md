@@ -15,7 +15,7 @@
 ## 提示詞 1：調整資訊層級
 
 ```text
-請先閱讀 README.md、AGENTS.md、data/data_dictionary.md 與 dashboard-brief.md，確認主要使用者、核心問題、資料限制與目前技術棧。請在既有 React 19 + Vite + TypeScript 專案上做最小必要的 UI 改善，不要重寫資料邏輯，也不要新增 UI framework。
+請先閱讀 data/data_dictionary.md 與 dashboard-brief.md，確認主要使用者、核心問題、資料限制與目前技術棧。請在既有 React 19 + Vite + TypeScript 專案上做最小必要的 UI 改善，不要重寫資料邏輯，也不要新增 UI framework。
 
 請以資訊層級與目標使用者的理解速度為重點：
 1. 從 Dashboard Brief 找出最重要的決策問題與量化指標，放在第一眼可見區。
@@ -31,7 +31,7 @@
 ## 提示詞 2：補充指標 tooltip
 
 ```text
-請依 README.md、AGENTS.md 與 data/data_dictionary.md，為目前每個量化指標加入可理解的 tooltip 或等價說明。
+請依 data/data_dictionary.md，為目前每個量化指標加入可理解的 tooltip 或等價說明。
 
 每個指標至少要能查到：
 - 指標名稱與明確分母，例如「錄取後註冊率」而不是只寫「註冊率」。
@@ -45,7 +45,7 @@
 ## 提示詞 3：處理空資料與錯誤狀態
 
 ```text
-請依 README.md 與 AGENTS.md 補上目前儀表板的空資料與錯誤狀態，不要改變既有資料邊界。
+請補上目前儀表板的空資料與錯誤狀態，不要改變既有資料邊界。
 
 需求：
 - 篩選後沒有資料時，顯示「目前篩選條件下沒有符合資料」，不要留下空白圖表或顯示 NaN、undefined、錯誤的 0。
@@ -59,7 +59,7 @@
 ## 提示詞 4：調整手機版
 
 ```text
-請依 README.md、AGENTS.md 與目前 Dashboard Brief 調整手機版顯示，先檢查現有畫面再做最小必要修改。
+請依目前 Dashboard Brief 調整手機版顯示，先檢查現有畫面再做最小必要修改。
 
 請以約 375px 寬度驗證：
 - 指標、圖表、篩選器與明細仍可閱讀與操作。
@@ -74,7 +74,7 @@
 ## 提示詞 5：避免加入無關裝飾
 
 ```text
-請先停下目前的裝飾性 UI 修改，依 README.md、AGENTS.md、data/data_dictionary.md 與 dashboard-brief.md 重新檢查設計取捨。
+請先停下目前的裝飾性 UI 修改，依 data/data_dictionary.md 與 dashboard-brief.md 重新檢查設計取捨。
 
 請列出目前畫面上所有可能改變使用者解讀的視覺化選擇，例如指標分母、篩選狀態、座標軸、顏色語意、圖表標題與 tooltip。對每一項說明它回答哪個決策問題、使用者可能誤讀什麼，以及是否應保留。
 

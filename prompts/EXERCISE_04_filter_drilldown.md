@@ -14,7 +14,7 @@
 ## 提示詞 1：加入學年度與第二維度篩選
 
 ```text
-請先閱讀 README.md、AGENTS.md、data/data_dictionary.md 與 dashboard-brief.md，檢查目前的 React 19 + Vite + TypeScript 儀表板，再沿用既有的 Tailwind CSS 4 與 shadcn/ui 元件結構完成篩選功能。
+請先閱讀 data/data_dictionary.md 與 dashboard-brief.md，檢查目前的 React 19 + Vite + TypeScript 儀表板，再沿用既有的 Tailwind CSS 4 與 shadcn/ui 元件結構完成篩選功能。
 
 請加入兩個篩選器：
 1. 學年度篩選器：從已解析資料的 `academic_year` 動態取得 unique 值並排序。不要硬編碼 2021、2022、2023 或其他固定年份；預設狀態為「全部」，若 Brief 明確要求預設值，也只能使用資料中實際存在的值。
@@ -47,7 +47,7 @@
 ```text
 我選擇了學年度與某個系所，但畫面上的整體註冊率仍然是全體資料的數字。
 
-請依 README.md、AGENTS.md 與 data/data_dictionary.md 檢查篩選流程。指標的分子與分母必須先套用相同的篩選條件，再分別加總：
+請依 data/data_dictionary.md 檢查篩選流程。指標的分子與分母必須先套用相同的篩選條件，再分別加總：
 
 篩選後錄取後註冊率 = SUM(篩選後 registered) / SUM(篩選後 admitted)
 
@@ -57,7 +57,7 @@
 ## 提示詞 4：加入圖表下鑽（選做）
 
 ```text
-請在不改變 README.md 與 AGENTS.md 所定義技術棧的前提下，加入圖表下鑽功能：點擊比較圖表中的系所或招生管道後，讓下方明細表格顯示該群組的資料列。
+請在不改變技術棧的前提下，加入圖表下鑽功能：點擊比較圖表中的系所或招生管道後，讓下方明細表格顯示該群組的資料列。
 
 需求：
 - 不使用彈窗，直接更新頁面下方的明細區塊。
